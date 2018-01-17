@@ -1,4 +1,9 @@
 <p>
   comp1 works!
 </p>
-<ng-content></ng-content>
+<input #nomchange (change)="modifierNom(nomchange.value)" type="text">
+Bonjour {{ nom}}
+  <p>{{age}}</p>
+
+<ng-content>
+</ng-content>

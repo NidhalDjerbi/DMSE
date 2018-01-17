@@ -8,8 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class Comp1Component implements OnInit {
 
   constructor() { }
+  nom:string ;
+  age:number = 24;
 
   ngOnInit() {
+    this.nom=  'Nidhal Jbahi';
+  }
+
+  modifierNom(NewName){
+    this.nom = NewName;
   }
 
 }
