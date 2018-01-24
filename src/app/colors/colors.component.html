@@ -1,0 +1,7 @@
+<ng-content></ng-content>
+<div [style.backgroundColor]="color"> ici le couleur</div>
+<input #col (change)="changeCol(col.value)" type="text">
+<input #ren (click)="changeCol2()" type="button" value="reset">
+<p>
+  colors works!
+</p>
