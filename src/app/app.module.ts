@@ -7,6 +7,7 @@ import { Comp1Component } from './comp1/comp1.component';
 import { Comp2Component } from './comp2/comp2.component';
 import { ColorsComponent } from './colors/colors.component';
 import { TwowayComponent } from './twoway/twoway.component';
+import { DirectiveComponent } from './directive/directive.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { TwowayComponent } from './twoway/twoway.component';
     Comp1Component,
     Comp2Component,
     ColorsComponent,
-    TwowayComponent
+    TwowayComponent,
+    DirectiveComponent
   ],
   imports: [
     BrowserModule,
